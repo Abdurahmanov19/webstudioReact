@@ -178,4 +178,19 @@
         border: 1px solid rgba(33, 33, 33, 0.2);
     }
 }
-
+@media screen and (max-width: 410px){
+    .header__link-group.active{
+        padding-top: 31px!important;
+    }
+    .header__link-group.active{
+        padding-left: 20px!important;
+    }
+    .header__social-box.active{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header__left-box.active, .header__right-box.active {
+        position: absolute;
+        left: 20px;
+    }
+}
