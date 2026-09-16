@@ -51,7 +51,7 @@ const Studio = () => {
                     <div className="advantages__block">
                         <div className="advantages__box">
                             <div className="advantages__content">
-                                <img src="/public/advantages-antenna.svg" alt="" className="advantages__img"/>
+                                <img src="/advantages-antenna.svg" alt="" className="advantages__img"/>
                             </div>
                             <h4 className="advantages__title">Внимание к деталям</h4>
                             <p className="advantages__text">
@@ -62,7 +62,7 @@ const Studio = () => {
                         </div>
                         <div className="advantages__box">
                             <div className="advantages__content">
-                                <img src="./../../../public/advantages-clock.svg" alt="" className="advantages__img"/>
+                                <img src="/advantages-clock.svg" alt="" className="advantages__img"/>
                             </div>
                             <h4 className="advantages__title">Пунктуальность</h4>
                             <p className="advantages__text">
@@ -73,7 +73,7 @@ const Studio = () => {
                         </div>
                         <div className="advantages__box">
                             <div className="advantages__content">
-                                <img src="./../../../public/advantages-diagram.svg" alt="" className="advantages__img"/>
+                                <img src="/advantages-diagram.svg" alt="" className="advantages__img"/>
                             </div>
                             <h4 className="advantages__title">Планирование</h4>
                             <p className="advantages__text">
@@ -84,7 +84,7 @@ const Studio = () => {
                         </div>
                         <div className="advantages__box">
                             <div className="advantages__content">
-                                <img src="./../../../public/advantages-astronaut.svg" alt="" className="advantages__img"/>
+                                <img src="/advantages-astronaut.svg" alt="" className="advantages__img"/>
                             </div>
                             <h4 className="advantages__title">Современные технологии</h4>
                             <p className="advantages__text">
