@@ -91,8 +91,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 }
 .service__box{
+    width: calc(33.33333% - 20px);
     position: relative;
 }
 .service__dark-light{
@@ -317,6 +319,16 @@
     .advantages__box{
         width:calc(50% - 15px) ;
     }
+    .service__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service__box{
+        width: calc(50% - 15px);
+    }
+    .service{
+        padding-bottom: 50px;
+    }
 }
 @media screen and (max-width: 480px){
     .hero__title{
@@ -324,10 +336,17 @@
         line-height: 42px;
     }
     .advantages__box{
-        width:100% ;
+        width: 100% ;
     }
     .advantages{
         padding: 60px 0;
+    }
+    .service__box,.service__img{
+        width: 100%;
+    }
+    .service__title{
+        font-size: 25px;
+        margin-bottom: 20px;
     }
 }
 

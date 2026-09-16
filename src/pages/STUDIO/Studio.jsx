@@ -96,31 +96,31 @@ const Studio = () => {
                     </div>
                 </div>
             </section>
-            {/*<section className="service">*/}
-            {/*    <div className="container">*/}
-            {/*        <h2 className="service__title">Чем мы занимаемся</h2>*/}
-            {/*        <div className="service__wrapper">*/}
-            {/*            <div className="service__box">*/}
-            {/*                <img src="./../../../public/service__img1.png" alt="" className="service__img"/>*/}
-            {/*                <div className="service__dark-light">*/}
-            {/*                    <p className="service__text">Десктопные приложения</p>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*            <div className="service__box">*/}
-            {/*                <img src="./../../../public/service__img2.png" alt="" className="service__img"/>*/}
-            {/*                <div className="service__dark-light">*/}
-            {/*                    <p className="service__text">Мобильные приложения</p>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*            <div className="service__box">*/}
-            {/*                <img src="./../../../public/service__img3.png" alt="" className="service__img"/>*/}
-            {/*                <div className="service__dark-light">*/}
-            {/*                    <p className="service__text">Дизайнерские решения</p>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
+            <section className="service">
+                <div className="container">
+                    <h2 className="service__title">Чем мы занимаемся</h2>
+                    <div className="service__wrapper">
+                        <div className="service__box">
+                            <img src="/service__img1.png" alt="" className="service__img"/>
+                            <div className="service__dark-light">
+                                <p className="service__text">Десктопные приложения</p>
+                            </div>
+                        </div>
+                        <div className="service__box">
+                            <img src="/service__img2.png" alt="" className="service__img"/>
+                            <div className="service__dark-light">
+                                <p className="service__text">Мобильные приложения</p>
+                            </div>
+                        </div>
+                        <div className="service__box">
+                            <img src="/service__img3.png" alt="" className="service__img"/>
+                            <div className="service__dark-light">
+                                <p className="service__text">Дизайнерские решения</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             {/*<section className="team">*/}
             {/*    <div className="container">*/}
             {/*        <h2 className="team__title">Наша команда</h2>*/}
@@ -148,7 +148,7 @@ const Studio = () => {
             {/*        </div>*/}
             {/*    </div>*/}
             {/*</section>*/}
-            {/*<Form active={active} setActive={setActive}/>*/}
+            <Form active={active} setActive={setActive}/>
         </div>
     );
 };
