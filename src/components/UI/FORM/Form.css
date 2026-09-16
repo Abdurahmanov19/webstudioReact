@@ -19,7 +19,8 @@ textarea {
     display: none;
 }
 .form.active {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .form__cleanse{
     position: relative;

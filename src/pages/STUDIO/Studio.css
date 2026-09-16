@@ -342,6 +342,12 @@
     .clients__box{
         width: calc(33.3333% - 20px);
     }
+    .form{
+        width: 450px!important;
+    }
+    .form__agreement-text{
+        font-size: 12px!important;
+    }
 }
 @media screen and (max-width: 480px){
     .hero__title{
@@ -368,5 +374,6 @@
         font-size: 25px;
         margin-bottom: 20px;
     }
+
 }
 
