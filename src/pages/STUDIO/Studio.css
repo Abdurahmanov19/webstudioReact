@@ -37,9 +37,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
+}
+.advantages__box{
+    width: calc(25% - 22.5px);
 }
 .advantages__content{
-    padding: 25px 100px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
     background: rgba(245, 244, 250, 1);
     margin-bottom: 30px;
@@ -297,3 +304,30 @@
     background: rgba(255, 255, 255, 1);
     padding: 20px 24px 20px;
 }
+
+/*Start adaptive*/
+
+@media screen and (max-width: 768px){
+    .hero__title{
+        font-size: 40px;
+    }
+    .advantages__block{
+        flex-wrap: wrap;
+    }
+    .advantages__box{
+        width:calc(50% - 15px) ;
+    }
+}
+@media screen and (max-width: 480px){
+    .hero__title{
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .advantages__box{
+        width:100% ;
+    }
+    .advantages{
+        padding: 60px 0;
+    }
+}
+
