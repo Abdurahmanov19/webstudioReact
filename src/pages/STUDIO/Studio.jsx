@@ -121,33 +121,33 @@ const Studio = () => {
                     </div>
                 </div>
             </section>
-            {/*<section className="team">*/}
-            {/*    <div className="container">*/}
-            {/*        <h2 className="team__title">Наша команда</h2>*/}
-            {/*        <div className="team__wrapper">*/}
-            {/*            {team.map((item)=>(*/}
-            {/*                <Cards*/}
-            {/*                    key={item.title}*/}
-            {/*                    person={item.img}*/}
-            {/*                    title={item.title}*/}
-            {/*                    text={item.text}*/}
-            {/*                />*/}
-            {/*                ))}*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
-            {/*<section className="clients">*/}
-            {/*    <div className="container">*/}
-            {/*        <h2 className="clients__title">Постоянные клиенты</h2>*/}
-            {/*        <div className="clients__wrapper">*/}
-            {/*            {clients.map((item)=>(*/}
-            {/*                <div className='clients__box' key={item.img}>*/}
-            {/*                    <Icon img={item.img}/>*/}
-            {/*                </div>*/}
-            {/*            ))}*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
+            <section className="team">
+                <div className="container">
+                    <h2 className="team__title">Наша команда</h2>
+                    <div className="team__wrapper">
+                        {team.map((item)=>(
+                            <Cards
+                                key={item.title}
+                                person={item.img}
+                                title={item.title}
+                                text={item.text}
+                            />
+                            ))}
+                    </div>
+                </div>
+            </section>
+            <section className="clients">
+                <div className="container">
+                    <h2 className="clients__title">Постоянные клиенты</h2>
+                    <div className="clients__wrapper">
+                        {clients.map((item)=>(
+                            <div className='clients__box' key={item.img}>
+                                <Icon img={item.img}/>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
             <Form active={active} setActive={setActive}/>
         </div>
     );

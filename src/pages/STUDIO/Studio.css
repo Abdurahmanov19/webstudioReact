@@ -136,9 +136,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 }
 .team__card{
-    max-width: 270px;
+    width: calc(25% - 22.5px);
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2),0 1px 1px 0 rgba(0, 0, 0, 0.14),0 1px 3px 0 rgba(0, 0, 0, 0.12);
     padding-bottom: 30px;
@@ -329,6 +330,18 @@
     .service{
         padding-bottom: 50px;
     }
+    .team__wrapper{
+        flex-wrap: wrap;
+    }
+    .team__card{
+        width: calc(50% - 15px);
+    }
+    .clients__wrapper{
+        flex-wrap: wrap;
+    }
+    .clients__box{
+        width: calc(33.3333% - 20px);
+    }
 }
 @media screen and (max-width: 480px){
     .hero__title{
@@ -338,13 +351,20 @@
     .advantages__box{
         width: 100% ;
     }
-    .advantages{
+    .advantages,.team,.clients{
         padding: 60px 0;
     }
-    .service__box,.service__img{
+    .service__box,.service__img,.team__card{
         width: 100%;
     }
     .service__title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .clients__box{
+        width: calc(50% - 15px);
+    }
+    .clients__title{
         font-size: 25px;
         margin-bottom: 20px;
     }
