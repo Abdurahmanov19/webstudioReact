@@ -343,10 +343,11 @@
         width: calc(33.3333% - 20px);
     }
     .form{
-        width: 450px!important;
+        width: 430px!important;
+        padding: 30px!important;
     }
     .form__agreement-text{
-        font-size: 12px!important;
+        font-size: 11px!important;
     }
 }
 @media screen and (max-width: 480px){

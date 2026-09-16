@@ -21,6 +21,7 @@ textarea {
 .form.active {
     display: flex;
     flex-direction: column;
+    z-index: 2;
 }
 .form__cleanse{
     position: relative;
