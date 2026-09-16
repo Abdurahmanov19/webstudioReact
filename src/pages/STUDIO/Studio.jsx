@@ -51,7 +51,7 @@ const Studio = () => {
                     <div className="advantages__block">
                         <div className="advantages__box">
                             <div className="advantages__content">
-                                <img src="./../../../public/advantages-antenna.svg" alt="" className="advantages__img"/>
+                                <img src="/public/advantages-antenna.svg" alt="" className="advantages__img"/>
                             </div>
                             <h4 className="advantages__title">Внимание к деталям</h4>
                             <p className="advantages__text">
