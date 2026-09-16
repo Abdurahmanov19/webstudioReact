@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import './Header.css';
 import {Link} from 'react-router-dom'
+import Burger from '/public/header__burger-img.svg'
+import BurgerX from '/public/header__burger-imgx.svg'
 
 const Header = () => {
     const [active, setActive] = useState(true);
@@ -38,7 +40,7 @@ const Header = () => {
                         <div className="header__vertical-line"></div>
                         <Link to='/' className="header__social-box-link">LinkedIn</Link>
                     </div>
-                    <img onClick={()=>{setActive(prev => !prev)}} className='header__burger-img' src="/header__burger-img.svg" alt=""/>
+                    <img onClick={()=>{setActive(prev => !prev)}} className='header__burger-img' src={active ? Burger : BurgerX} alt=""/>
                 </nav>
             </div>
         </header>
