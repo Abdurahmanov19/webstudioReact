@@ -16,16 +16,16 @@ const Footer = () => {
                            <h3 className="footer__subtitle">присоединяйтесь</h3>
                            <div className="footer__wrapper">
                                <div className='footer__content'>
-                                   <img src="./../../../public/footer__instagram.svg" alt="" className="footer__img"/>
+                                   <img src="/footer__instagram.svg" alt="" className="footer__img"/>
                                </div>
                                <div className='footer__content'>
-                                   <img src="./../../../public/footer__twiter.svg" alt="" className="footer__img"/>
+                                   <img src="/footer__twiter.svg" alt="" className="footer__img"/>
                                </div>
                                <div className='footer__content'>
-                                   <img src="./../../../public/footer__facebook.svg" alt="" className="footer__img"/>
+                                   <img src="/footer__facebook.svg" alt="" className="footer__img"/>
                                </div>
                                <div className='footer__content'>
-                                   <img src="./../../../public/footer__linkedin.svg" alt="" className="footer__img"/>
+                                   <img src="/footer__linkedin.svg" alt="" className="footer__img"/>
                                </div>
                            </div>
                        </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                                <input placeholder='E-mail' type="text" className="footer__input"/>
                                <button className="footer__btn">
                                    Подписаться
-                                   <img src="./../../../public/footer__btn-img.svg" alt="" className="footer__btn-img"/>
+                                   <img src="/footer__btn-img.svg" alt="" className="footer__btn-img"/>
                                </button>
                            </div>
                        </div>
