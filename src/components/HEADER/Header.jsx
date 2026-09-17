@@ -14,21 +14,21 @@ const Header = () => {
                     <div className="header__group">
                         <Link onClick={()=>{setActive(prev => !prev)}} to='/' className="header__title">Web<span>Studio</span></Link>
                         <div className={active? "header__link-group":"header__link-group active"}>
-                            <NavLink onClick={()=>{setActive(prev => !prev)}} to='/' className={active ? "header__link" : "header__link active"}
+                            <NavLink  to='/' className={active ? "header__link" : "header__link active"}
                             >Студия</NavLink>
-                            <NavLink onClick={()=>{setActive(prev => !prev)}} to='/portfoilo' className={active ? "header__link" : "header__link active"}
+                            <NavLink  to='/portfoilo' className={active ? "header__link" : "header__link active"}
                             >Портфолио</NavLink>
-                            <NavLink onClick={()=>{setActive(prev => !prev)}} to='/contact' className={active ? "header__link" : "header__link active"}
+                            <NavLink  to='/contact' className={active ? "header__link" : "header__link active"}
                             >Контакты</NavLink>
                         </div>
                     </div>
                     <div className={active ? "header__box" : "header__box active"}>
                         <div className={active ? "header__left-box": "header__left-box active"}>
-                            <img className='header__img' src="./../../../public/header-sms-img.svg" alt=""/>
+                            <img className='header__img' src="/header-sms-img.svg" alt=""/>
                             <a href="#" className={active ? 'header__box-link1': 'header__box-link1 active'}>info@devstudio.com</a>
                         </div>
                         <div className={active ? "header__right-box": "header__right-box active"}>
-                            <img className='header__img' src="./../../../public/header-smartphone.svg" alt=""/>
+                            <img className='header__img' src="/header-smartphone.svg" alt=""/>
                             <a href="#" className={active ? 'header__box-link2': 'header__box-link2 active'}>+38 096 111 11 11</a>
                         </div>
                     </div>
