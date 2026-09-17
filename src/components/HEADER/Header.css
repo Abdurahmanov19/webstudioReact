@@ -40,6 +40,9 @@
     letter-spacing: 2%;
     text-align: left;
 }
+.header__link.active{
+    color: #2196F3;
+}
 .header__link:hover,.header__box-link:hover{
     color: #2196F3;
 }
@@ -88,7 +91,7 @@
     }
     .header__burger-img{
         display: inline-block;
-        z-index: 1;
+        z-index: 11;
     }
     .header__link-group.active{
         position: absolute;
@@ -104,6 +107,7 @@
         left: 0;
         padding-top: 48px;
         padding-left: 40px;
+        z-index: 10;
     }
     .header__link.active{
         display: block;
@@ -118,7 +122,7 @@
     }
     .header__box.active {
         display: flex;
-        z-index: 1;
+        z-index: 11;
     }
     .header__img{
         display: none;
@@ -160,6 +164,7 @@
         left: 40px;
         gap: 5px;
         align-items: center;
+        z-index: 11;
     }
     .header__social-box-link{
         color: rgba(33, 150, 243, 1);

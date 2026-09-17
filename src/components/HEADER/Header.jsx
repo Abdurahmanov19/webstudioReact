@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Header.css';
 import {Link} from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import Burger from '/public/header__burger-img.svg'
 import BurgerX from '/public/header__burger-imgx.svg'
 
@@ -13,12 +14,12 @@ const Header = () => {
                     <div className="header__group">
                         <Link to='/' className="header__title">Web<span>Studio</span></Link>
                         <div className={active? "header__link-group":"header__link-group active"}>
-                            <Link to='/' className={active ? "header__link" : "header__link active"}
-                            >Студия</Link>
-                            <Link to='/portfoilo' className={active ? "header__link" : "header__link active"}
-                            >Портфолио</Link>
-                            <Link to='/contact' className={active ? "header__link" : "header__link active"}
-                            >Контакты</Link>
+                            <NavLink to='/' className={active ? "header__link" : "header__link active"}
+                            >Студия</NavLink>
+                            <NavLink to='/portfoilo' className={active ? "header__link" : "header__link active"}
+                            >Портфолио</NavLink>
+                            <NavLink to='/contact' className={active ? "header__link" : "header__link active"}
+                            >Контакты</NavLink>
                         </div>
                     </div>
                     <div className={active ? "header__box" : "header__box active"}>
@@ -32,7 +33,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className={active ? "header__social-box" : "header__social-box active"}>
-                        <Link to='/' className="header__social-box-link">Instagram</Link>
+                        <NavLink to='/' className="header__social-box-link">Instagram</NavLink>
                         <div className="header__vertical-line"></div>
                         <Link to='/' className="header__social-box-link">Twitter</Link>
                         <div className="header__vertical-line"></div>

@@ -84,7 +84,6 @@ const Portfolio = () => {
             : projects.filter(
             (project) => project.category === activeCategory
             );
-
     return (
         <div className='container'>
             <div className="categories">
