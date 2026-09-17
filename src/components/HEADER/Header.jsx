@@ -12,13 +12,13 @@ const Header = () => {
             <div className="container">
                 <nav className="header__nav">
                     <div className="header__group">
-                        <Link to='/' className="header__title">Web<span>Studio</span></Link>
+                        <Link onClick={()=>{setActive(prev => !prev)}} to='/' className="header__title">Web<span>Studio</span></Link>
                         <div className={active? "header__link-group":"header__link-group active"}>
-                            <NavLink to='/' className={active ? "header__link" : "header__link active"}
+                            <NavLink onClick={()=>{setActive(prev => !prev)}} to='/' className={active ? "header__link" : "header__link active"}
                             >Студия</NavLink>
-                            <NavLink to='/portfoilo' className={active ? "header__link" : "header__link active"}
+                            <NavLink onClick={()=>{setActive(prev => !prev)}} to='/portfoilo' className={active ? "header__link" : "header__link active"}
                             >Портфолио</NavLink>
-                            <NavLink to='/contact' className={active ? "header__link" : "header__link active"}
+                            <NavLink onClick={()=>{setActive(prev => !prev)}} to='/contact' className={active ? "header__link" : "header__link active"}
                             >Контакты</NavLink>
                         </div>
                     </div>
