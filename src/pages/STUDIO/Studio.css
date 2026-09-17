@@ -375,6 +375,11 @@
         font-size: 25px;
         margin-bottom: 20px;
     }
-
+    .advantages__box > p > br{
+        display: none;
+    }
+    .advantages__title{
+        text-align: center;
+    }
 }
 

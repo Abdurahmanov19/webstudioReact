@@ -107,3 +107,22 @@
     background: rgba(33, 150, 243, 1);
     border: none;
 }
+
+/*start adaptive*/
+
+@media screen and (max-width: 768px){
+    .footer__nav{
+        flex-wrap: wrap;
+        gap: 60px;
+        justify-content: space-around;
+    }
+    .footer__box-form{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    .footer__title,.footer__link,.footer__subtitle{
+        text-align: center;
+    }
+}
